@@ -1009,7 +1009,7 @@ Once on each of your turns, you can use a free maneuver to fire an orb at a crea
 			target: 'Self or one ally',
 			cost: 9,
 			sections: [
-				FactoryLogic.createAbilitySectionText('Until the start of your next turn, the target has cold immunity 10 and fire immunity 10, and their strikes deal extra fire damage equal to twice your Reason score. Additionally, whenever an enemy attempts uses a melee ability against the target while they are under this effect, the enemy takes 5 fire damage.'),
+				FactoryLogic.createAbilitySectionText('Until the start of your next turn, the target has cold immunity 10 and fire immunity 10, and their strikes deal extra fire damage equal to twice your Reason score. Additionally, whenever an enemy uses a melee ability against the target while they are under this effect, the enemy takes 5 fire damage.'),
 				FactoryLogic.createAbilitySectionField({
 					name: 'Strained',
 					effect: 'The target gains 2 surges. You are weakened and slowed (save ends).'
